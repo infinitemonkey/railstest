@@ -8,14 +8,14 @@
 </head>
 <body class="<%= controller.controller_name %>">
     <div id="banner">
-      <%= image_tag("logo.png") %>
-      <%=  @page_title || "Pragmatic Bookshelf" %>
+      <%= image_tag('rails.png') %>
+      <%=  @page_title || 'Pragmatic Bookshelf' %>
     </div>
     <div id="columns">
       <div id="side">
         <ul>
-          <li><%= link_to "Home", "/" %></li>
-          <li><%= link_to "New product", new_product_path %></li>
+          <li><%= link_to 'Home', '/' %></li>
+          <li><%= link_to 'New product', new_product_path %></li>
           <li><a href="#">Questions</a></li>
           <li><a href="#">News</a></li>
           <li><a href="#">Contact</a></li>
